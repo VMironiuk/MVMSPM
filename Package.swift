@@ -7,10 +7,10 @@ let package = Package(name: "MVMSPM",
                       targets: [.target(name: "MVMSPM"),
                                 .binaryTarget(name: "PSACommon",
                                               url: "https://github.com/VMironiuk/MVMSPM/raw/0944f250a82cd4ea3ecba2558d84a9393f667dcf/PSACommon.xcframework.zip",
-                                              checksum: "e1f0f42344c1e266ee7c04475565303195dca38d32d7e4dd29d06226f3afba49"),
+                                              checksum: "85d6521632c12040a609c1da1dfc874fa7b2fa86f1b54148282180888b154932"),
                                 .binaryTarget(name: "ePaymentsUI",
                                               url: "https://github.com/VMironiuk/MVMSPM/raw/0944f250a82cd4ea3ecba2558d84a9393f667dcf/ePaymentsUI.xcframework.zip",
-                                              checksum: "c1ffdb6dc8abd2113abd6a7cb3a21a40b7e2499ccae0492ef83424e53c733bd7"),
+                                              checksum: "72d5f5c9fad0a6fe2bcefae692916790770da707d0eb17d28e21758041ac57d9"),
                                 .binaryTarget(name: "PSA",
                                               url: "https://github.com/VMironiuk/MVMSPM/raw/0944f250a82cd4ea3ecba2558d84a9393f667dcf/PSA.xcframework.zip",
-                                              checksum: "70e5e6e5f89fd5b0b3b8fdd14a645dc0be79da51027f017eedc7d5afd17ebe46")])
+                                              checksum: "7515fdc8f24fa35fdc3f48c7b03acafc3e844c87bd7e004c3883bc79d4b51d4d")])
